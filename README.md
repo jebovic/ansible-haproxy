@@ -1,6 +1,8 @@
 HAProxy
 =======
 
+[![Build Status](https://travis-ci.org/jebovic/ansible-haproxy.svg?branch=master)](https://travis-ci.org/jebovic/ansible-haproxy)
+
 Install and configure HAProxy
 
 Role Variables
