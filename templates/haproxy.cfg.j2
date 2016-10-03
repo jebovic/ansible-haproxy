@@ -55,3 +55,5 @@ listen stats 0.0.0.0:9000
     #This will produce an error on older versions of HAProxy.
     stats admin if TRUE
 {% endif %}
+
+{% if haproxy_custom_config %}{{ haproxy_custom_config }}{% endif %}

@@ -7,3 +7,12 @@ haproxy_config_file: /etc/haproxy/haproxy.cfg
 haproxy_enable_ui: true
 haproxy_ui_user: haproxy_user
 haproxy_ui_password: haproxy
+
+# Custom configuration
+# example
+# haproxy_custom_config: |
+#                         frontend localnodes
+#                             bind *:80
+#                             mode http
+#                             default_backends nodes
+haproxy_custom_config: no
