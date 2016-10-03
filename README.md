@@ -1,7 +1,7 @@
 HAProxy
 =======
 
-[![Build Status](https://travis-ci.org/jebovic/ansible-haproxy.svg?branch=master)](https://travis-ci.org/jebovic/ansible-haproxy)
+[![Build Status](https://travis-ci.org/jebovic/ansible-haproxy.svg?branch=master)](https://travis-ci.org/jebovic/ansible-haproxy) [![Ansible Galaxy](https://img.shields.io/badge/galaxy-jebovic.haproxy-blue.svg?style=flat)](https://galaxy.ansible.com/jebovic/haproxy)
 
 Install and configure HAProxy
 
