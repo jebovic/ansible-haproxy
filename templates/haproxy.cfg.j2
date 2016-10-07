@@ -24,7 +24,7 @@ defaults
     errorfile 504 /etc/haproxy/errors/504.http
 
 {% if haproxy_enable_ui %}
-listen stats 0.0.0.0:9000
+listen stats :9000
     mode http
     balance
     timeout client 5000
