@@ -38,6 +38,8 @@ script:
   - docker exec "$(cat ${container_id})" env TERM=xterm service haproxy status
   - docker exec "$(cat ${container_id})" env TERM=xterm service haproxy stop
   - docker exec "$(cat ${container_id})" env TERM=xterm service haproxy start
+  - docker exec "$(cat ${container_id})" env TERM=xterm haproxy -v
+  - docker exec "$(cat ${container_id})" env TERM=xterm haproxy -c -f /etc/haproxy/haproxy.cfg
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
