@@ -8,7 +8,7 @@ Install and configure HAProxy
 Role Variables
 --------------
 
-```
+```yaml
 # Global configuration
 haproxy_config_file: /etc/haproxy/haproxy.cfg
 
@@ -30,11 +30,16 @@ haproxy_custom_config: no
 Example Playbook
 ----------------
 
+```yaml
+- hosts: servers
+  roles:
+     - { role: jebovic.haproxy }
 ```
-    - hosts: servers
-      roles:
-         - { role: jebovic.haproxy }
-```
+
+Tags
+----
+
+* haproxy_config : only update config and restart service
 
 License
 -------

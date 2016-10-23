@@ -16,6 +16,7 @@
     dest: "{{ haproxy_config_file }}"
   notify:
     - restart haproxy
+  tags: haproxy_config
 
 - name: service start
   service:
