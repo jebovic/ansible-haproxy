@@ -4,7 +4,7 @@
 haproxy_config_file: /etc/haproxy/haproxy.cfg
 
 # UI configuration
-haproxy_enable_ui: true
+haproxy_enable_ui: yes
 haproxy_ui_user: haproxy_user
 haproxy_ui_password: haproxy
 
