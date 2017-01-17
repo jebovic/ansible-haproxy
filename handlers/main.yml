@@ -8,5 +8,5 @@
 
 - name: do restart haproxy
   service:
-    name:  haproxy
+    name: haproxy
     state: restarted
